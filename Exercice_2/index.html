@@ -8,5 +8,15 @@
   <form>
     <label for="lastname">Votre nom  : </label><input type="text" name="lastname" id="lastname"/>
   </form>
+
+
+  <script >
+
+  var elem = document.getElementById("lastname");
+  elem.onblur = afficherMessage;
+  function afficherMessage() {
+  	alert("Merci de votre participation");
+  }
+  </script>
 </body>
 </html>
