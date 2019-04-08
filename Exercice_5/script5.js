@@ -1,6 +1,6 @@
-function changeimage(cascade) {
-document.getElementById(cascade.id).src="images/" + cascade.id + "_2.jpg";
+function changeimage(tunnel) {
+document.getElementById(tunnel.id).src="images/" + tunnel.id + "_2.jpg";
 }
-function changeimage2(cascade) {
-document.getElementById(cascade.id).src="images/" + cascade.id + ".jpg";
+function changeimage2(tunnel) {
+document.getElementById(tunnel.id).src="images/" + tunnel.id + ".jpg";
 }
